@@ -1,0 +1,47 @@
+\begin{titlepage}
+
+\begin{center}
+
+%% Extra whitespace at the top.
+\vspace*{2\bigskipamount}
+
+%% Print the title.
+{\makeatletter
+\titlestyle\bfseries\LARGE\@title
+\makeatother}
+
+%% Print the optional subtitle.
+{\makeatletter
+\ifx\@subtitle\undefined\else
+    \bigskip
+    \titlefont\titleshape\Large\@subtitle
+\fi
+\makeatother}
+
+\vfill
+
+
+\makeatletter
+{\Large\titlefont\bfseries\@firstname\ {\titleshape\@lastname \  (TU Delft)}}\\
+\vspace{0.15cm}
+{\large j.o.pinaurgell@tudelft.nl}
+%\makeatotherm
+
+\bigskip
+\bigskip
+
+\begin{flushright}
+Under the supervision of \textbf{------------}  \\
+Co-supervisor \textbf{--------------} \\
+Date of meeting: \textbf{------------} 
+\end{flushright}
+%% Extra whitespace at the bottom.
+\vspace*{2\bigskipamount}
+
+\end{center}
+
+\cleardoublepage
+
+
+\end{titlepage}
+

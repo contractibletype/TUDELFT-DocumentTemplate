@@ -1,0 +1,43 @@
+\documentclass{TUD-dissertation2020}
+
+\usepackage[style=numeric ]{biblatex}
+\addbibresource{dissertation.bib}
+
+\begin{document}
+
+%% Specify the title and author of the thesis. This information will be used on
+%% the title page (in title/title.tex) and 
+\title[A  nicely Rimbombant subtitle to show off]{A Round Sounding Title }
+\author{Your Name }{and Surname}
+
+%% Use Roman numerals for the page numbers of the title pages and table of
+%% contents.
+\frontmatter
+
+\include{title/title}
+
+%% The (optional) dedication can be used to thank someone or display a
+%% significant quotation.
+
+\include{GNG/acks/acks}
+\tableofcontents
+
+
+%% Use Arabic numerals for the page numbers of the chapters.
+\mainmatter
+\include{GNG/intro/deprecated/instruccions}
+%% Turn on thumb indices.
+
+\printbibliography
+%% Use letters for the chapter numbers of the appendices.
+\appendix
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+
+%% Turn off thumb indices for unnumbered chapters.
+
+
+
+\end{document}
+
